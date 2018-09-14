@@ -3,6 +3,7 @@ Capacitación: Git, bash y docker
 Integrantes:
 - christiam mendives    
 - Walter Rafael
+- El sol de aptitus
 
 # PREGUNTAS
 

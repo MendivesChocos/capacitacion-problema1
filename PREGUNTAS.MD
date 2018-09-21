@@ -21,3 +21,32 @@ Es un lenguaje de marcacion ligera, es para crear archivos guia
 git init
 git clone 
 git config 
+
+# Preguntas Docker
+
+1. ¿Qué importancia tiene los tags en un proyecto?
+Es importante taggear un poryecto, primero para tener un buen historial de versiones, segundo 
+para que podamos detectar de manera rapida una version especifica de esta manera corregir algun error espeficico de esa version 
+o volver a una version estable
+2. ¿Cuál es la diferencia entre un tag normal y un tag anotado en git?
+El tag anotado nos permite especificar un mensaje personalizado, y el ligero no me permite un mensajes y es mas usado en desarrollo
+3. ¿Cómo se sube todos los tags de git que hay en mi local?
+Se sube utilizando el git push origin --tags
+
+4. ¿Es necesario loguearse cada vez que subo una imagen a dockerhub?
+Si es necesario, sino no nos permitiria subir nuestra imagen
+
+5. ¿Qué es y para qué sirve docker?
+Docker es una plataforma opensource para desarrolladores y administradores de sistemas que nos permite crear, enviar y correr aplicaciones distribuidas dentro de laptops, VM's o cloud.
+
+6. ¿Cuál es la diferencia entre docker y VirtualBox?
+El virtualBox me permite virtualizacion a nivel de sistema operativo y docker a nivel de sistema operativo
+
+7. ¿Es necesario depender de una imagen de docker base al crear una imagen nueva?
+si es necesario ya que la vitualizacion es a nivel de sistema operativo
+
+8. ¿Porqué debo anteponer el nombre de usuario en una imagen docker nueva?
+Para indicar que tu eres el autor, el usuario de la imagen y quien da mantenimiento a esta
+
+9. ¿Que pasa si creo una imagen sin especificar una versión o tag, con qué versión se crea?
+En este caso se agrega la version por default el tag latest.

@@ -40,7 +40,7 @@ Si es necesario, sino no nos permitiria subir nuestra imagen
 Docker es una plataforma opensource para desarrolladores y administradores de sistemas que nos permite crear, enviar y correr aplicaciones distribuidas dentro de laptops, VM's o cloud.
 
 6. ¿Cuál es la diferencia entre docker y VirtualBox?
-El virtualBox me permite virtualizacion a nivel de sistema operativo y docker a nivel de sistema operativo
+El virtualBox me permite virtualizacion a nivel de hardware y docker a nivel de sistema operativo
 
 7. ¿Es necesario depender de una imagen de docker base al crear una imagen nueva?
 si es necesario ya que la vitualizacion es a nivel de sistema operativo
@@ -50,3 +50,13 @@ Para indicar que tu eres el autor, el usuario de la imagen y quien da mantenimie
 
 9. ¿Que pasa si creo una imagen sin especificar una versión o tag, con qué versión se crea?
 En este caso se agrega la version por default el tag latest.
+
+10. ¿Porqué es necesario crear un contenedor con esta bandera -it ? ¿Qué pasa si no le pongo -it?
+Ya que con esta forma el proceso bash esta activo, al ser mostardo de forma grafica. El contenedor ejecuta el proceso bash y al no detectar un error sobre el proceso, el contenedor termina su ejecucion.
+
+11. ¿Para qué sirve ejecutar el comando bash al eejcutar una imagen?
+Para interpretar las ordenes que voy ejecutar a mi container
+
+12. ¿Cuál es la diferencia entre docker ps y docker ps -a?
+El docker ps lista todos los contenedores que se estan ejecutando, y el docker ps -a lista todos los contenedores
+

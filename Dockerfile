@@ -1,2 +1,2 @@
-FROM node:10.10.0-slim
+FROM nginx:alpine
 COPY PREGUNTAS.MD /app/PREGUNTAS.MD

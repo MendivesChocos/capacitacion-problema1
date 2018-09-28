@@ -60,3 +60,29 @@ Para interpretar las ordenes que voy ejecutar a mi container
 12. ¿Cuál es la diferencia entre docker ps y docker ps -a?
 El docker ps lista todos los contenedores que se estan ejecutando, y el docker ps -a lista todos los contenedores
 
+# Paso 5
+
+1. ¿Cuál es la diferencia entre una imagen y un contenedor?
+la imagen es un archivo comprimido de multiples capas, y el contenedor es una instancia de una imagen
+
+2. ¿Cómo listo las imágenes que hay en mi computadora?
+se listan con el comando docker ps -a
+
+3. ¿Cómo salgo de un contenedor de docker?
+salimos con el comando exit, que nos permite detener el contenedor
+
+4. ¿Se elimina el contenedor al salir de ella?
+No se elimina, termina su ejecucion, pero permanece en un esatado exit.
+
+5. ¿Cómo elimino un contenedor?
+Se elimina con docker rm "id_container"
+
+6. ¿Para qué es necesario el flag `-i`, `-t`, `--rm`?
+El comando -i el para el modo interactivo, el -t permite la visualizacion de texto en el terminal, --rm sirve para eliminar un contenedor
+luego de que este alla ejecutado sus procesos
+
+7. ¿Cómo verifico que el archivo creado se encuentra en la imagen?
+Ingresando al contendor a traves del bash
+
+8. ¿Cómo se comenta una linea de código en Dockerfile?
+Se comenta con el #
